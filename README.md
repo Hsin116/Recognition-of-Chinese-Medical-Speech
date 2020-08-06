@@ -5,7 +5,7 @@
 
 ## 預處理
 
-此網址提供一預處理程式，針對 Chinese Medical Speech Corpus ([ChiMeS](https://ee303.nctu.me/home)) 資料庫進行預處理，經處理後將便於後續的訓練與測試。
+此網址提供針對 Chinese Medical Speech Corpus ([ChiMeS](https://ee303.nctu.me/home)) 資料庫進行預處理的程式，經處理後將便於後續的訓練與測試。
 
 #### 資料集
 
