@@ -64,3 +64,7 @@ python3 main.py --config /Joint/new_exp/example.yaml --ckpdir /Joint/new_exp/mod
 * C2E : 用於將英文音節轉換為中文字的 .josn 檔
 * gpu-num : 若有多顆 gpu 則可以指定 gpu
 * test : 開啟測試階段
+
+
+## Demo影片
+[![](http://img.youtube.com/vi/nscPYEEkoLo/0.jpg)](https://youtu.be/nscPYEEkoLo "")
