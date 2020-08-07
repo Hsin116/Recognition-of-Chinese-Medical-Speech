@@ -41,14 +41,14 @@
 當準備好 config 及資料預處理完後，就可以開始進行訓練。
 訓練的命令如下:
 ```
-python3 main.py --config /example.yaml --logdir /log_path --ckpdir /model_path --gpu-num 0 --spec-aug
+python3 main.py --config /Joint/new_exp/example.yaml --logdir /Joint/new_exp/log --ckpdir /Joint/new_exp/model --gpu-num 0 --spec-aug
 ```
 #### 上述參數中:
 * config : config 的 .yaml 檔之路徑
 * logdir : log儲存之路徑
 * ckpdir : 模型權重儲存之路徑
 * gpu-num : 若有多顆 gpu 則可以指定 gpu
-* spec-aug : 使用頻譜增量 Spectaugmentation
+* spec-aug : 使用頻譜增量
 
 
 ## 測試
@@ -56,7 +56,7 @@ python3 main.py --config /example.yaml --logdir /log_path --ckpdir /model_path -
 測試階段將訓練時所儲存的各個 epoch 的模型權重檔對測試集的語音進行預測，並與ground truth 計算 Character error rate (CER) 作為評判模型好壞的標準。
 訓練的命令如下:
 ```
-python3 main.py --config /media/ee303/My_Passport/Joint/new_exp/dataA/wave/dataA_wave.yaml --ckpdir /media/ee303/My_Passport/Joint/new_exp/model --C2E /media/ee303/My_Passport/Joint/new_exp/dataA/wave/C2E.json --test --gpu-num 0
+python3 main.py --config /Joint/new_exp/example.yaml --ckpdir /Joint/new_exp/model --C2E /Joint/new_exp/C2E.json --test --gpu-num 0
 ```
 #### 上述參數中:
 * config : config 的 .yaml 檔之路徑
