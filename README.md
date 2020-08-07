@@ -1,5 +1,5 @@
 # Recognition-of-Chinese-Medical-Speech
-本網站的程式經由參考並修改 https://https://github.com/Alexander-H-Liu/End-to-end-ASR-Pytorch 的內容獲得。
+本網站的程式經由參考並修改 https://github.com/Alexander-H-Liu/End-to-end-ASR-Pytorch 的內容獲得。
 
 
 
